@@ -36,8 +36,30 @@ void sol753() {
 	treeVector(v, n);
 
 	afisareVector(v, n);
+
+	cout << endl << endl;
 	
 	BinaryTree tree;
 
-	
+	tree.addPreordine(v, n);
+
+	//tree.afisare();
+
+	tree.afisarePreordineStanga(tree.root->left);
+
+
+
+	/*tree.root = new TreeNode();
+	tree.root->data = 7;
+	tree.addClasic(tree.root, 9);
+	tree.addClasic(tree.root, -1);
+	tree.addClasic(tree.root, 5);
+	tree.addClasic(tree.root, 12);
+	tree.addClasic(tree.root, 3);
+	tree.addClasic(tree.root, -7);
+
+	//tree.afisare();
+
+	cout << tree.find(tree.root);
+	*/
 }
