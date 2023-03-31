@@ -9,7 +9,7 @@ Să se determine cele mai mici valori număr prim din subarborii stâng și drep
 
 void sol758() {
 
-	ifstream f()
+	
 
 }
 
