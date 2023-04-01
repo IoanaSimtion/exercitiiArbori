@@ -43,9 +43,9 @@ void sol753() {
 
 	tree.addPreordine(v, n);
 
-	//tree.afisare();
+	tree.afisare();
 
-	tree.afisarePreordineStanga(tree.root->left);
+
 
 
 

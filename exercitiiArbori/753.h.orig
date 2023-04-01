@@ -43,9 +43,15 @@ void sol753() {
 
 	tree.addPreordine(v, n);
 
+<<<<<<< HEAD
+	tree.afisare();
+
+
+=======
 	//tree.afisare();
 
 	tree.afisarePreordineStanga(tree.root->left);
+>>>>>>> task-1-pbinfo
 
 
 
