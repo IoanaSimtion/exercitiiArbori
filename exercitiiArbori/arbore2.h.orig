@@ -105,18 +105,17 @@ struct BinaryTree {
 			}
 			return addData(current->right, data);
 
-			if (current->right == NULL) {
-				TreeNode* aux = new TreeNode();
-				aux->data = data;
-				aux->left = NULL;
-				aux->right = NULL;
-				current->right = aux;
-				return aux;
 		}
 		return left;
 	}
 
 
+<<<<<<< HEAD
+
+	
+
+=======
+>>>>>>> task-1-pbinfo
 	void addPreordine(int v[], int n) {
 
 		root = new TreeNode();
@@ -132,11 +131,14 @@ struct BinaryTree {
 	}
 
 
+<<<<<<< HEAD
+=======
 
 	//AFISARE
 
 
 
+>>>>>>> task-1-pbinfo
 	void afisare() {
 
 		TreeNode* aux = root;
@@ -159,6 +161,10 @@ struct BinaryTree {
 		}
 
 	}
+<<<<<<< HEAD
+	
+
+=======
 
 
 	void afisarePreordineStanga(TreeNode* current) {
@@ -280,4 +286,5 @@ struct BinaryTree {
 	}
 
 
+>>>>>>> task-1-pbinfo
 };
